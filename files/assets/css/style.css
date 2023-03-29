@@ -1,0 +1,37 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  /* padding-top: 80px; */
+  height: 100%;
+}
+
+header {
+  background-image: url("../images/header.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 50%;
+}
+
+.card {
+  border: none;
+}
+
+.card-img {
+  border-radius: 10%;
+  height: 250px;
+}
+
+.card-title {
+  color: #006994;
+}
+
+.card-link {
+  text-decoration: none;
+}
+
+footer {
+  background-color: #222525;
+}

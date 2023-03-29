@@ -1,0 +1,26 @@
+{
+  "name": "myapp6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mongoosejs/double": "^0.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.10.0",
+    "mongoose-to-swagger": "^1.4.0",
+    "mongoose-unique-validator": "^3.1.0",
+    "node-dev": "^8.0.0",
+    "swagger-ui-express": "^4.6.2",
+    "winston": "^3.8.2",
+    "winston-daily-rotate-file": "^4.7.1",
+    "winston-mongodb": "^5.1.1"
+  }
+}
